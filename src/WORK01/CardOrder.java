@@ -77,7 +77,6 @@ public class CardOrder {
 	private String getTopLine() {
 		//use this value until more code written
 		return String.valueOf(border).repeat(CARD_LEN) + "\n";
-		//return "Topline\n";
 	}
 	
 	//returns a String containing the blank line
@@ -86,7 +85,6 @@ public class CardOrder {
 	private String getBlankLine() {	
 		//use this value until more code written
 		return border + " ".repeat(CARD_LEN - 2) + border + "\n";
-		//return "Blankline\n";
 	}
 	
 	//returns a String containing the name line
@@ -103,7 +101,6 @@ public class CardOrder {
 			return border + padding + name + padding+" " + border + "\n";
 		}
 		return border + padding + name + padding + border + "\n";
-		//return "Nameline\n";
 	}
 	
 	//returns the price of one card
